@@ -1,0 +1,808 @@
+{
+  "scriptVersion": 1,
+  "id": "huda-surprise",
+  "title": "جوال هدى",
+  "description": "جوال هدى ملقوط. هي تجهّز عرس أختها أمل، والعائلة كلها تخبّي التحضيرات عن العروس.",
+  "revision": 1,
+  "phone": {
+    "owner": "هدى",
+    "date": "2026-11-17",
+    "time": "21:10",
+    "battery": 71,
+    "network": "5G",
+    "wallpaper": "sage"
+  },
+  "installedApps": [
+    {
+      "id": "phone",
+      "name": "هاتف",
+      "installed": true,
+      "visible": true,
+      "dock": true,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "whatsapp",
+      "name": "واتساب",
+      "installed": true,
+      "visible": true,
+      "dock": true,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "messages",
+      "name": "رسائل",
+      "installed": true,
+      "visible": true,
+      "dock": true,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "safari",
+      "name": "المتصفح",
+      "installed": true,
+      "visible": true,
+      "dock": true,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "contacts",
+      "name": "جهات الاتصال",
+      "installed": true,
+      "visible": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "photos",
+      "name": "الصور",
+      "installed": true,
+      "visible": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "notes",
+      "name": "ملاحظات",
+      "installed": true,
+      "visible": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "calendar",
+      "name": "التقويم",
+      "installed": true,
+      "visible": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "reminders",
+      "name": "التذكيرات",
+      "installed": true,
+      "visible": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "maps",
+      "name": "الخرائط",
+      "installed": true,
+      "visible": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "settings",
+      "name": "الإعدادات",
+      "installed": true,
+      "visible": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
+    }
+  ],
+  "contacts": [
+    {
+      "id": "amal",
+      "name": "أمل (أختي)",
+      "phone": "0550000100",
+      "bio": "أختي العروس"
+    },
+    {
+      "id": "hanan",
+      "name": "حنان (أختي)",
+      "phone": "0550000101",
+      "bio": "أختي الكبيرة، المديرة العامة"
+    },
+    {
+      "id": "eman",
+      "name": "إيمان (أختي)",
+      "phone": "0550000102",
+      "bio": "أختي، سيدة المطبخ"
+    },
+    {
+      "id": "haifa",
+      "name": "هيفاء (أختي)",
+      "phone": "0550000103",
+      "bio": "أختي، أستاذة الخياطة والفساتين"
+    },
+    {
+      "id": "nada",
+      "name": "ندى (أختي)",
+      "phone": "0550000104",
+      "bio": "أختي"
+    },
+    {
+      "id": "reem",
+      "name": "ريم (أختي)",
+      "phone": "0550000105",
+      "bio": "أختي، المصوّرة"
+    },
+    {
+      "id": "hanaa",
+      "name": "هناء (أختي)",
+      "phone": "0550000107",
+      "bio": "أختي، الكوشة والديكور"
+    },
+    {
+      "id": "tahani",
+      "name": "تهاني (أختي)",
+      "phone": "0550000108",
+      "bio": "أختي، الحنّاء والمكياج"
+    },
+    {
+      "id": "mohammed",
+      "name": "محمد (أخوي)",
+      "phone": "0550000201",
+      "bio": "أخوي الكبير"
+    },
+    {
+      "id": "abdulrahman",
+      "name": "عبدالرحمن (أخوي)",
+      "phone": "0550000202",
+      "bio": "أخوي الأوسط"
+    },
+    {
+      "id": "abdulaziz",
+      "name": "عبدالعزيز (أخوي)",
+      "phone": "0550000203",
+      "bio": "أخوي الصغير"
+    },
+    {
+      "id": "mama",
+      "name": "أمي",
+      "phone": "0550000301",
+      "bio": "الله يحفظها"
+    },
+    {
+      "id": "baba",
+      "name": "أبوي",
+      "phone": "0550000302",
+      "bio": "الله يحفظه"
+    },
+    {
+      "id": "saud",
+      "name": "سعود (زوج أمل)",
+      "phone": "0550000401",
+      "bio": "عريس أمل"
+    },
+    {
+      "id": "hall",
+      "name": "قاعة الياسمين",
+      "phone": "0112000000",
+      "bio": "قاعة الأفراح"
+    }
+  ],
+  "chats": [
+    {
+      "id": "chat-secret",
+      "app": "whatsapp",
+      "title": "عرس أمل 🤫",
+      "participants": [
+        "owner",
+        "hanan",
+        "eman",
+        "haifa",
+        "nada",
+        "reem",
+        "hanaa",
+        "tahani",
+        "mohammed",
+        "abdulrahman",
+        "abdulaziz",
+        "mama",
+        "saud"
+      ],
+      "messages": [
+        {
+          "id": "s1",
+          "body": "صباح الخير يا فريق المفاجأة ☀️ عرس أمل الجمعة 20/11 في قاعة الياسمين. أمل ما تدري، ولا كلمة قدامها 🤫",
+          "senderId": "hanan",
+          "time": "2026-11-17 09:00"
+        },
+        {
+          "id": "s2",
+          "body": "القاعة محجوزة والعربون مدفوع ✅ وسعود جاهز من طرفه.",
+          "senderId": "mohammed",
+          "time": "2026-11-17 09:05"
+        },
+        {
+          "id": "s3",
+          "body": "فستان أمل جاهز على مقاسها. بروفة الخميس بحجة إنها تساعدني أقيس لوحدة غيرها 😅",
+          "senderId": "haifa",
+          "time": "2026-11-17 09:10"
+        },
+        {
+          "id": "s4",
+          "body": "أنا أصوّر كل التحضيرات وأجهّز لها فيلم يبكّيها 🎥",
+          "senderId": "reem",
+          "time": "2026-11-17 09:15"
+        },
+        {
+          "id": "s5",
+          "body": "ضيافة ٣٠٠ ضيف جاهزة، والكيكة مكتوب عليها: أمل ♥ سعود",
+          "senderId": "eman",
+          "time": "2026-11-17 09:20"
+        },
+        {
+          "id": "s6",
+          "body": "الحنّاء والمكياج مضبوطين. مشاعل ماكياج تجي الجمعة ٤ العصر، وأنا أبعد أمل عن الأسئلة",
+          "senderId": "tahani",
+          "time": "2026-11-17 09:25"
+        },
+        {
+          "id": "s7",
+          "body": "أمل شكّت فيني اليوم 😭 قالت ليش لابسة لبس سهرة؟ قلت عندي موعد",
+          "senderId": "nada",
+          "time": "2026-11-17 09:30"
+        },
+        {
+          "id": "s8",
+          "body": "وش أقول إذا سألتني أمل؟ أنا ما أعرف أكذب 😅",
+          "senderId": "abdulaziz",
+          "time": "2026-11-17 09:35"
+        },
+        {
+          "id": "s9",
+          "body": "قل: ما أدري. وبس.",
+          "senderId": "mohammed",
+          "time": "2026-11-17 09:36"
+        },
+        {
+          "id": "s10",
+          "body": "الكوشة وصلت! ورد أبيض وذهبي 😍 لا تحكون لأمل!",
+          "senderId": "hanaa",
+          "time": "2026-11-17 09:40"
+        },
+        {
+          "id": "s-code",
+          "body": "أنا مسؤولة عن بطاقات الدعوة والتنسيق العام. رمز ملف الخطة: تاريخ الحفل (اليوم والشهر) 2011 🔒",
+          "senderId": "owner",
+          "time": "2026-11-17 09:50"
+        },
+        {
+          "id": "s12",
+          "body": "ممتاز يا هدى. الكل يدخل الملف، بس لا أحد يفتح الواتساب قدام أمل!",
+          "senderId": "hanan",
+          "time": "2026-11-17 09:55"
+        }
+      ]
+    },
+    {
+      "id": "chat-amal",
+      "app": "whatsapp",
+      "title": "أمل (أختي)",
+      "participants": [
+        "owner",
+        "amal"
+      ],
+      "messages": [
+        {
+          "id": "a1",
+          "body": "هدى وينكم؟ كل واحد يرد علي بكلمة ويقفل 😒",
+          "senderId": "amal",
+          "time": "2026-11-17 20:10"
+        },
+        {
+          "id": "a2",
+          "body": "عادي يا أمل، مشغولين بشغل البيت بس",
+          "senderId": "owner",
+          "time": "2026-11-17 20:12"
+        },
+        {
+          "id": "a3",
+          "body": "ليش الكل يقفل الواتساب لما أدخل الصالة؟",
+          "senderId": "amal",
+          "time": "2026-11-17 20:15"
+        },
+        {
+          "id": "a4",
+          "body": "تتخيلين 😂 ارتاحي",
+          "senderId": "owner",
+          "time": "2026-11-17 20:16"
+        },
+        {
+          "id": "a5",
+          "body": "هدى، فيه شي مخبينه عني؟ قولي لي الصدق",
+          "senderId": "amal",
+          "time": "2026-11-17 20:20"
+        },
+        {
+          "id": "a6",
+          "body": "ولا شي والله 🤍 اللي عندنا بس عشاء الجمعة",
+          "senderId": "owner",
+          "time": "2026-11-17 20:21"
+        },
+        {
+          "id": "a7",
+          "body": "طيب… بكلمك الليلة، عندي شي أبغى أقوله لك",
+          "senderId": "amal",
+          "time": "2026-11-17 20:30",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": "chat-saud",
+      "app": "whatsapp",
+      "title": "سعود (زوج أمل)",
+      "participants": [
+        "owner",
+        "saud"
+      ],
+      "messages": [
+        {
+          "id": "sd1",
+          "body": "هدى، كل شي تمام؟ أمل اتصلت اليوم وقالت إني أتصرف غريب",
+          "senderId": "saud",
+          "time": "2026-11-17 15:00"
+        },
+        {
+          "id": "sd2",
+          "body": "لا تتوتر يا سعود، تصرف طبيعي. الجمعة بعد العصر كون جاهز بالثوب",
+          "senderId": "owner",
+          "time": "2026-11-17 15:02"
+        },
+        {
+          "id": "sd3",
+          "body": "أنا أرتجف من الحين 😅 وأمي تسأل وش اللون المناسب لأمل",
+          "senderId": "saud",
+          "time": "2026-11-17 15:03"
+        },
+        {
+          "id": "sd4",
+          "body": "أبيض بس، ولا تخلي أحد يشوف الصور",
+          "senderId": "owner",
+          "time": "2026-11-17 15:05"
+        }
+      ]
+    },
+    {
+      "id": "chat-aziz",
+      "app": "whatsapp",
+      "title": "عبدالعزيز (أخوي)",
+      "participants": [
+        "owner",
+        "abdulaziz"
+      ],
+      "messages": [
+        {
+          "id": "az1",
+          "body": "هدى أنا قلت لأمل إن في ضيوف الجمعة… بس ما قلت لها ليش 🙈",
+          "senderId": "abdulaziz",
+          "time": "2026-11-17 16:00"
+        },
+        {
+          "id": "az2",
+          "body": "ممتاز، تقدمت 😂 بس لا تزيد",
+          "senderId": "owner",
+          "time": "2026-11-17 16:01"
+        }
+      ]
+    },
+    {
+      "id": "chat-hall",
+      "app": "messages",
+      "title": "قاعة الياسمين",
+      "participants": [
+        "owner",
+        "hall"
+      ],
+      "messages": [
+        {
+          "id": "sms1",
+          "body": "قاعة الياسمين: تأكيد حجز حفل زفاف العروس أمل والعريس سعود، الجمعة 20/11 الساعة 8:30 مساءً. المسؤولة عن الحجز: هدى. رقم الحجز YS-2011",
+          "senderId": "hall",
+          "time": "2026-11-17 14:00",
+          "hidden": true
+        },
+        {
+          "id": "sms2",
+          "body": "نذكّركم بتسليم قائمة الأسماء النهائية قبل الخميس.",
+          "senderId": "hall",
+          "time": "2026-11-17 14:01",
+          "hidden": true
+        }
+      ]
+    }
+  ],
+  "content": {
+    "photos": [
+      {
+        "id": "photo-hall",
+        "title": "قاعة الياسمين",
+        "body": "زيارة القاعة مع محمد",
+        "kind": "image",
+        "media": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPAAAAC0CAIAAAAl/ja/AAAFhUlEQVR42u3Sh3KUBRiF4XM5AlIUEEFaCD30UNN7J723Te9A6KEEQkmoYkERRb0Xr0R3/JXZCUnYFGD3+96Z5wrOebX5sxTADDEBTAW9ZVkKYIa2LksFzNDW5amAGdq2PA0wQ9tXpAFmKGFFOmCGEj5PB8zQjpUZgBlKXJkBmKHEVRmAGdq5KhMwQ7tWZwJmaPfqLMAM7V6TBZihPWuyATO094tswAzt+zIHMIOgYSvo/WtzADOUtDYXMENJ63IBM3RgXR5ghg6uzwPM0KH1+YAZOvRVPmCGDm8oAMzQkQ0FgBk6+nUBYEY46ELADB3bWIgl9PdfE/PFaEtIyRuLsEgLiHg2jLlISt5UhIVZwo5nKJuFF0THNxVjvj5oypGYer504ptiRO+jpRyJ2aOnk5tLEI1PknIkLogGQcdHzTQdbdCntpRgbjFSc4A75qbTW0oxm5hKORLXzEZntpZiRjFbc4CDZhQOugzvivGa/2+ap6ZTyrYyTBMXNQc4axqlbj+LSHFUc4DLIhF0fNdM09ODTksoRyBOaw5wX0DpCeUIxHXQ3BdQxo4KhMV1zQFODCNoIzXT9H9BZyZWOGem5oDzN5WVWOmcsaCdv6nsnZWeGas54PlQZe+q8sxm0I4PVc6uKrdM1hxw+6lyd1e7ZThot5+KmmnaVNB5e2p8Mh+0z1uVv6fGJ/NB+7xVBXtrHDJfc8Dhs+Ggax1yE7S7Z1W4r9YhJ0E7fFZF++scchK0w2dVvL/OGyc1B7ydq+Kkem98Be3sXJUk1XvjKmhv56r0QIM3roL2di5BE7StoMsONnjjKmhv5+rswUZvXAXt7VyVH2r0xlXQ3s5V+eEmb3wF7excVRxu8sZV0N7OVeWRZm9cBe3tXFUdafbGVdDezlXV0RZvfAXt7FxVH23xxlXQ3s5VzbEWb1wF7e1c1SS3euMraGfnqja51RtXQXs7V3XH2xxyUrPDZ1V/vM0hJ0E7fFb1J9od8hK0v2fVcKLdISdBO3xWjSdDPpmv2eetajoZ8sl80D5vVdOpkE/2g3Z5q5pPd7hluGa3n6rldIdbhoN2+6laznR6ZrNmx4eq9UynZyaD9nyo2lK6nDNWs/M31Z7S5ZyxoJ2/qfbUbtip2f2VCqV2I2SiaU4MU0daDwJxXTP3BdSR3oNAfAfNg/9SZ3oP3orTmjnuLXVl9CJS3NXMZZHUndGLaeKoZs6aRt2ZfXhXfNTMU+9QT2YfZhTjNXPQjNSb1Y/ZxGzNXDMb9WX1Y24xlTJ3zE192QN4r1ipmS/eR/05A4jGJ6+ZC6KhgZwBRO+TpMzs0dNA7iDm6+OlzNrzpMHcQSzMB02ZeRdGQ3lDWKQl7JgxF0nDeUNYQguImNGWkIbzhwEzNFIwDJihcwUjgBk6XzgCmEHQsBX0haJzgBkaLToHmKHR4vOAGbpYfB4wQ5dKLgBm6HLpBcCMcNCjgBm6UjYKmKGrZaOAGbp29iJgBkHDVtDXyy8BZmis/BJghsYqLgNm6EblZcAM3ay8ApihW1VXADMIGraCvl19FTBD49VXATN0p+YaYAZBw1bQd2uvA2Zoou46YEY46DHADN2rHwPM0P36G4AZetBwAzCDoGEr6IeNNwEzNNl0EzBDU023ADM01XwLMEOPmm8DZuhxy23AjHDQ44AZetI6Dpihp63jgBl61nYHMEPP2u8AZuh5+13ADH0buguYoRehCcAMveiYAMzQdx33ADP0fec9wAyChq2gf+i6D5ihH7vvA2boZfcDwAy97HkAmKGfeh4CZujn3oeAGXrVOwmYoVd9k4AZ+qVvEjBDr/unADP0emAKMEO/DjwCzNBvg48AM/Rm8DFght4MPQbM0O9DTwAz9MfwE8AM/TnyFDDjH22JwnBzX8HMAAAAAElFTkSuQmCC"
+      },
+      {
+        "id": "photo-family",
+        "title": "العائلة",
+        "body": "كلنا مع بعض يوم العيد",
+        "kind": "image",
+        "media": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPAAAAC0CAIAAAAl/ja/AAAFWklEQVR42u3S13IcVRSF4f3EXPtJRDTRpGXARBNtQCKMNJJGcSSNRoloMMGPgKuacsmWGbVGPX12L/6q777XPv3HXE+AjeAJYBX0kz0BNggaXkE/1RNgg6DhFfTTPQE2CBpeQT+zKMAGQcMr6GcXBdggaHgF/dyiABsEDa+gry4KsBFXlwTYiOeXBNggaHgF/cKSABsEDa+gX1wSYIOg4RX0S30BNggaXkG/3Bdgg6DhFfQrfQE2CBpeQV/rC7AR15YF2IhXlwXYIGh4Bf3asgAbBA2voF9fFmCDoOEV9BsrAmwQNLyCfnNFgA2ChlfQWhFgg6DhFfT1FQE24vqqABvx1qoAGwQNr6DfXhVgg6DhFfQ7qwJsEDS8gr6xKsBG3BgIsBHvDgTYIGh4Bf3eQIANgoZX0O8PBNggaHgF/cGaABsEDa+gP1wTYIOg4RX0R2sCbBA0vIK+uSbARtxcF2AjPl4XYIOg4RX0J+sCbBA0vIL+dF1o1pW5cX08V7MIuljKZD2ToD/bEC5p6o7P4jEviaAT1UzTDQT9+YYwncZTPo3nnU63g747d6W+DtU8i6bv3X6ivg4H/cWGuuhCKZ/WyNdbqLnSyNoLpXxaF8OI/0nHDZbdWs2XbHrqjjtddtzaUFc0WHNlig0t11yZYmeDNVe6Eknc2lR+jaf8UNa1ZxSp+d+ma49sPOWHsk6fStzeVHIzrblSZ0bBmit1Rs605kryWoKaazadP+gWas7fdHy5qbRaq7kyYUnxmisTFrZWcyVtM0HN5zadpOYJTbdcc+am46tNJVSk5srZMamCPjuvSM2VhOUENZ/bdOagC9acs+n4ekvZFA/69JhUNVdOzysedLZ4gponN5056OI1J2w65reUR5KaK/Mpa67Mp6m5kichgiZor6AXtpRHqqAXEge9kCzoPAkFNU+QNuhUNadqOr7ZUhIE3emgk1QU1Ny5oBPWnKfp+HZbGRC0QdAZQiJogvYK+rttZUDQBkFnCImgCdor6O+3lQFBGwSdISSCJmivoHvbyoCgDYLOEFL0hsqAoB2CThBSLA6VAUEbBJ0hJILuXtMEPSnopaEyIGiDoDOERNDnuL8tVc339xD0pKD7Q2WQNuh+sqD7iYPOEBJBE7RX0Ms7SiJhzQ+2Jan5wZ6ENSepiKBrBZ2h6dNjCPo/g17ZUR6pan5kW/GgH9mTquY8CRF03aDLNn12DEE/PujVHeWRKujHLixS82OXpAo6T0K5gs7T9ISFGWpO1XSqfmKwo2yK13zuwtZqPndJ8ZqzxRODXWVTPugaI9uoucaM8kEniyfWdpVQwZrrj5xpzfVnFKw5YTlJgy7V9BQ7C6Zctumc2cT6rtJqueapdzZY89QbWq45bTOpg26z6UbWtt9xkaYzBxMbu0quhZqbHXyhlJv9dAs1J6+lA0HPuulOvECSpvOfH5t76orGU+7Q7RfVeMpdOTy69Z+ouUjTHbo6tvbURVN33NF7L2Pqjrt4bHT6V5HyjLLu7pmxvSfABkHDK+jhngAbMRwJsBE7IwE2CBpeQe+OBNggaHgFvTcSYIOg4RX0aCTARoz2BdiI/X0BNggaXkGP9wXYIGh4BX2wL8AGQcMr6MOxABsEDa+gj8YCbBA0vII+HguwQdDwCvpkLMBGnBwIsBE/HAiwQdDwCvrHAwE2CBpeQf90IMAGQcMr6J8PBdggaHgF/cuhABsEDa+gfz0UYIOg4RX0nUMBNuLOkQAb8duRABsEDa+gfz8SYIOg4RX03SMBNggaXkH/cSzABkHDK+g/jwXYIGh4Bf3XsQAbBA2voP8+FmAj7p0IsPEPMDZUwj5hxfsAAAAASUVORK5CYII="
+      },
+      {
+        "id": "photo-dress",
+        "title": "فستان أمل",
+        "body": "بروفة سرية. المقاس ٣٨. أمل ما تدري!",
+        "kind": "image",
+        "media": "data:image/png;base64,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",
+        "hidden": true,
+        "folder": "مخفي"
+      }
+    ],
+    "notes": [
+      {
+        "id": "note-shop",
+        "title": "مشتريات الأسبوع",
+        "body": "هدية للعروس، بخور، تغليف الهدايا، شموع",
+        "kind": "note"
+      },
+      {
+        "id": "note-plan",
+        "title": "خطة مفاجأة أمل 🔒",
+        "body": "القاعة ✔ (محمد)\nالكوشة (هناء)\nالتصوير (ريم)\nالدعوات (هدى)\nالضيافة (إيمان)\nالحنّاء والمكياج (تهاني)\nالفستان (هيفاء)\nالسيارات (عبدالرحمن)\n\nأمل ما تعرف: القاعة، الفستان، الموعد.\nعبدالعزيز لا يتكلم قدامها أبداً 🙈",
+        "kind": "note",
+        "password": "2011",
+        "hidden": true,
+        "folder": "خاص"
+      }
+    ],
+    "calendar": [
+      {
+        "id": "cal-decoy",
+        "title": "عشاء العائلة",
+        "body": "الجمعة 20/11 (هذا اللي قلناه لأمل)",
+        "kind": "event"
+      },
+      {
+        "id": "cal-real",
+        "title": "حفل زواج أمل وسعود 💍",
+        "body": "الجمعة 20/11 · 8:30 م · قاعة الياسمين",
+        "kind": "event",
+        "hidden": true
+      }
+    ],
+    "reminders": [
+      {
+        "id": "rem-1",
+        "title": "أرسل الدعوات للضيوف",
+        "body": "قبل الأربعاء",
+        "kind": "note"
+      },
+      {
+        "id": "rem-2",
+        "title": "أذكّر عبدالعزيز يسكت",
+        "body": "كل يوم",
+        "kind": "note"
+      }
+    ],
+    "maps": [
+      {
+        "id": "map-hall",
+        "title": "قاعة الياسمين",
+        "body": "حي الياسمين، الرياض",
+        "kind": "note"
+      }
+    ],
+    "phone": [
+      {
+        "id": "call-amal-log",
+        "title": "أمل (أختي)",
+        "body": "٣ مكالمات فائتة",
+        "kind": "call",
+        "meta": {
+          "phone": "0550000100"
+        }
+      },
+      {
+        "id": "call-saud-log",
+        "title": "سعود (زوج أمل)",
+        "body": "مكالمة واردة · ٨ دقائق",
+        "kind": "call",
+        "meta": {
+          "phone": "0550000401"
+        }
+      },
+      {
+        "id": "call-mohammed-log",
+        "title": "محمد (أخوي)",
+        "body": "مكالمة صادرة",
+        "kind": "call",
+        "meta": {
+          "phone": "0550000201"
+        }
+      }
+    ]
+  },
+  "variables": {},
+  "events": [
+    {
+      "id": "start",
+      "label": "بداية",
+      "type": "start",
+      "actions": [
+        {
+          "type": "notification",
+          "key": "",
+          "value": "واتساب: أمل — هدى وينك؟"
+        }
+      ]
+    },
+    {
+      "id": "r-code",
+      "label": "تقرأ رمز الخطة",
+      "event": "read",
+      "target": "s-code",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "note-plan",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "ملاحظات: ملف خطة جديد مقفل"
+        }
+      ]
+    },
+    {
+      "id": "r-note",
+      "label": "تفتح ملف الخطة",
+      "event": "read",
+      "target": "note-plan",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "sms1",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "sms2",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "photo-dress",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "cal-real",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "a7",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "رسائل: القاعة أرسلت تأكيد الحجز"
+        }
+      ]
+    },
+    {
+      "id": "r-last",
+      "label": "رسالة أمل الأخيرة",
+      "event": "read",
+      "target": "a7",
+      "next": [
+        "panic"
+      ]
+    },
+    {
+      "id": "panic",
+      "label": "اتصال أمل",
+      "type": "delay",
+      "delayMs": 1000,
+      "actions": [
+        {
+          "type": "time",
+          "key": "",
+          "value": "22:30"
+        },
+        {
+          "type": "call",
+          "key": "call-amal",
+          "value": "أمل (أختي)"
+        }
+      ]
+    },
+    {
+      "id": "answered",
+      "label": "ترد على أمل",
+      "event": "callAnswered",
+      "target": "call-amal",
+      "next": [
+        "decision"
+      ]
+    },
+    {
+      "id": "decision",
+      "label": "وش تقول لأمل؟",
+      "type": "choice",
+      "next": [
+        "end-keep",
+        "end-slip",
+        "end-reveal"
+      ]
+    },
+    {
+      "id": "end-keep",
+      "label": "أقول: هدى نسيت جوالها وبرجعه لها",
+      "type": "ending",
+      "actions": [
+        {
+          "type": "ending",
+          "key": "",
+          "value": "حافظت على السر: قلت لأمل إن هدى نسيت جوالها وبترجعه، وصارت الجمعة ليلة العمر 💍"
+        }
+      ]
+    },
+    {
+      "id": "end-slip",
+      "label": "أرتبك وأقول: مبروك!",
+      "type": "ending",
+      "actions": [
+        {
+          "type": "ending",
+          "key": "",
+          "value": "ارتبكت وقلت لها: مبروك! فبكت أمل وضحكت وتظاهرت بعدها إنها ما تدري 😂"
+        }
+      ]
+    },
+    {
+      "id": "end-reveal",
+      "label": "أقول لها الحقيقة كاملة",
+      "type": "ending",
+      "actions": [
+        {
+          "type": "ending",
+          "key": "",
+          "value": "قلت لأمل الحقيقة كاملة: عرسك الجمعة 8:30 في قاعة الياسمين. انفضح السر، لكن العائلة سامحتك 😅"
+        }
+      ]
+    }
+  ],
+  "tests": [
+    {
+      "name": "keep-secret",
+      "steps": [
+        {
+          "event": "read",
+          "target": "s-code"
+        },
+        {
+          "event": "read",
+          "target": "note-plan",
+          "password": "2011"
+        },
+        {
+          "event": "read",
+          "target": "a7"
+        },
+        {
+          "advanceMs": 1000
+        },
+        {
+          "event": "callAnswered",
+          "target": "call-amal"
+        },
+        {
+          "choose": "end-keep"
+        }
+      ],
+      "ending": "حافظت على السر: قلت لأمل إن هدى نسيت جوالها وبترجعه، وصارت الجمعة ليلة العمر 💍",
+      "expectUnlocked": [
+        "photo-dress",
+        "cal-real",
+        "a7"
+      ]
+    },
+    {
+      "name": "slip",
+      "steps": [
+        {
+          "event": "read",
+          "target": "s-code"
+        },
+        {
+          "event": "read",
+          "target": "note-plan",
+          "password": "2011"
+        },
+        {
+          "event": "read",
+          "target": "a7"
+        },
+        {
+          "advanceMs": 1000
+        },
+        {
+          "event": "callAnswered",
+          "target": "call-amal"
+        },
+        {
+          "choose": "end-slip"
+        }
+      ],
+      "ending": "ارتبكت وقلت لها: مبروك! فبكت أمل وضحكت وتظاهرت بعدها إنها ما تدري 😂",
+      "expectUnlocked": [
+        "photo-dress",
+        "cal-real",
+        "a7"
+      ]
+    },
+    {
+      "name": "reveal",
+      "steps": [
+        {
+          "event": "read",
+          "target": "s-code"
+        },
+        {
+          "event": "read",
+          "target": "note-plan",
+          "password": "2011"
+        },
+        {
+          "event": "read",
+          "target": "a7"
+        },
+        {
+          "advanceMs": 1000
+        },
+        {
+          "event": "callAnswered",
+          "target": "call-amal"
+        },
+        {
+          "choose": "end-reveal"
+        }
+      ],
+      "ending": "قلت لأمل الحقيقة كاملة: عرسك الجمعة 8:30 في قاعة الياسمين. انفضح السر، لكن العائلة سامحتك 😅",
+      "expectUnlocked": [
+        "photo-dress",
+        "cal-real",
+        "a7"
+      ]
+    }
+  ]
+}
